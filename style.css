@@ -1,4 +1,23 @@
-h2 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&display=swap');
+
+:root {
+    --prim-clr: #ffffff;
+    --sec-clr: #2b5797;
+    --accent-clr:#2e8540;
+     background-image: linear-gradient(to right, #ffffff, #c9ddf2, #75c3d5, #1ea797, #2e8540);
+     --prim-font:'Montserrat', sans-serif;
+     --sec-font: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {   
+    text-align: right;
+    font-family: var(--sec-font);
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family:var(--prim-font);
+    font-size: 4rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
