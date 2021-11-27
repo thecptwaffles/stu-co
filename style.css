@@ -19,5 +19,8 @@ h1 {
     font-family:var(--prim-font);
     font-size: 4rem;
     text-align: center;
-    
+}
+
+iframe {
+      background-image: linear-gradient(to right, #ffffff, #c9ddf2, #75c3d5, #1ea797, #2e8540);
 }
