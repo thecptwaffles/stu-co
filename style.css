@@ -11,10 +11,23 @@
      padding: 0;
 }
 
+ul {
+  display: table;
+  margin: 0 auto;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  font-family: var(--sec-font);
+  list-style: none;
+}
+
 h1 {
     font-family:var(--prim-font);
     font-size: 4rem;
     text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* Style the navbar */
@@ -43,9 +56,16 @@ h1 {
     background-color: #292929;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .nav-bar a {
     font-size: .75rem;
+    text-align: center;
+  }
+
+  ul {
+    font-size: 2.5rem;
   }
 }
 
