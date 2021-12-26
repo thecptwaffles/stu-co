@@ -4,7 +4,6 @@
     --prim-clr: #ffffff;
     --sec-clr: #2b5797;
     --accent-clr:#2e8540;
-    background-image: linear-gradient(to right, #ffffff, #c9ddf2, #75c3d5, #1ea797, #2e8540);
      --prim-font:'Montserrat', sans-serif;
      --sec-font: 'Open Sans Condensed', sans-serif;
      margin: 0;
@@ -18,12 +17,24 @@ ul {
   margin-top: 2rem;
   font-family: var(--sec-font);
   list-style: none;
+  background-color: var(--sec-clr);
+  color: var(--prim-clr);
+  border-radius: 1rem;
+  border: var(--accent-clr) solid 5px;
 }
 
 h1 {
     font-family:var(--prim-font);
     font-size: 4rem;
     text-align: center;
+    background-color: var(--sec-clr);
+    color: var(--prim-clr);
+    border: var(--accent-clr) solid 5px;
+    border-radius: 1rem;
+}
+
+#asmt {
+  font-size: 2.75rem;
 }
 
 ::-webkit-scrollbar {
@@ -33,7 +44,7 @@ h1 {
 /* Style the navbar */
 .nav-bar {
   overflow: hidden;
-  background-color: #000000;
+  background-color: var(--sec-clr);
   font-family: var(--sec-font);
   border: 5px solid var(--accent-clr);
   border-radius: 1rem;
@@ -53,7 +64,7 @@ h1 {
 }
 
 .nav-bar a:hover {
-    background-color: #292929;
+    background-color: #27497c;
 }
 
 
